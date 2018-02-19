@@ -31,6 +31,37 @@ background-color:#82c3a6;
 text-align:center;
 }
 
+#imagensecundaria1 img:hover{
+  transform: rotate(10deg);
+  border: 2px;
+  box-shadow: 4px 4px 20px  #82c3a6;
+}
+
+#imagensecundaria2 img:hover{
+  transform: translate(5px,-20px);
+  boder: 2px;
+  box-shadow: 4px 4px 20px #82c3a6;
+}
+
+footer{
+  width: 100%;
+  display:table-footer-group;
+  display: inline-flex;
+  border-bottom-left-radius: solid 10px;
+  border-bottom-right-radius: solid 10px;
+}
+footer img{
+  width: 5%;
+  text-align: center;
+}
+footer div{
+  width: 25%;
+}
+#footer3 img{
+  width: 20px;
+  padding-left: 10px;
+}
+
 @media (min-width: 900px ) {
   #imagen_secundaria{
     width: 100%;
@@ -42,6 +73,7 @@ text-align:center;
       #imagensecundaria1{
         width: 50%;
         text-align: center;
+        border: 2px;
       }
 
       #imagensecundaria2{
@@ -61,6 +93,7 @@ text-align:center;
   #imagensecundaria1{
     width: 50%;
     text-align: center;
+    border: 2px;
   }
 
   #imagensecundaria2{
