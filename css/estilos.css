@@ -1,4 +1,9 @@
+@font-face {
+  font-family: DancingScript-Regular;
+  src: url("DancingScript-Regular.otf");
+}
 body{
+  font-family: DancingScript-Regular;
   background-color: black;
 
 }
@@ -39,6 +44,10 @@ background-color:#82c3a6;
 text-align:center;
 }
 
+#imagen_secundaria img{
+  margin: 5%;
+}
+
 #imagensecundaria1 img:hover{
   transform: rotate(10deg);
   border: 2px;
@@ -60,7 +69,7 @@ text-align:center;
     width: 100%;
     background-color: #d5c75f;
     display: inline-flex;
-    border:solid 1px;
+
 
   }
       #imagensecundaria1{
@@ -68,9 +77,17 @@ text-align:center;
         text-align: center;
         border: 2px;
       }
+      #imagensecundaria1 img{
+        width: 80%;
+        text-align: center;
+      }
 
       #imagensecundaria2{
         width: 50%;
+        text-align: center;
+      }
+      #imagensecundaria2 img{
+        width: 80%;
         text-align: center;
       }
 
@@ -91,6 +108,12 @@ text-align:center;
       footer img{
         width: 10%;
       }
+
+      #galeriapaisajes{
+        width: 100%;
+        display:inline-flex;
+      }
+
 
 
 }
